@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(33, 37, 41);
+}
+
+html {
+  height: 100%;
+}
+
+#menu a {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+li:hover a {
+  background-color: black;
+}
+
+#menu button {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  max-height: 50rem;
+}
+
+footer {
+  background: black;
+  min-height: 100px;
+}
+
+#iconos i {
+  font-size: 20px;
+  padding: 0 8px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
