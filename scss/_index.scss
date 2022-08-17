@@ -1,22 +1,22 @@
 #menu a{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: map-get($font-weights, medium);
     color: $primary-color;
 }
 
 li:hover a{
-    background-color: black;
+    background-color: $bg-col;
 }
 
 #menu button{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: map-get($font-weights , bold)
 }
 .carousel-inner{
     max-height: 50rem;
 }
 footer{
-    background: black;
+    background: $bg-col;
     min-height: 100px;
 }
 
@@ -24,4 +24,8 @@ footer{
     font-size: 20px;
     padding: 0 8px;
     color: $primary-color;
+}
+
+h1{
+    font-weight: map-get($font-weights , medium);
 }

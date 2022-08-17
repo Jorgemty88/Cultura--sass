@@ -1,0 +1,13 @@
+#discos .col-lg-3{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+
+#discos img {
+@include sizes(100%,100%);
+}
+
+#discos img:hover{
+    border: 5px solid rgb(33,37,41);
+}
